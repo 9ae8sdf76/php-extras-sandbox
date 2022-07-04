@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2632d2092ccb42f546c3ab6a161978fa",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "php-extras/php-extras-sandbox-plugin",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/9ae8sdf76/php-extras-sandbox-plugin.git",
+                "reference": "97625cbc14e046c09ce147da3cbbcda846a16668"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/9ae8sdf76/php-extras-sandbox-plugin/zipball/97625cbc14e046c09ce147da3cbbcda846a16668",
+                "reference": "97625cbc14e046c09ce147da3cbbcda846a16668",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "PhpExtras\\Sandbox\\Plugin": "./src"
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "kstanley",
+                    "email": "email@example.com"
+                }
+            ],
+            "description": "A PHP/Composer plugin used by php-extras-sandbox",
+            "support": {
+                "source": "https://github.com/9ae8sdf76/php-extras-sandbox-plugin/tree/main",
+                "issues": "https://github.com/9ae8sdf76/php-extras-sandbox-plugin/issues"
+            },
+            "time": "2022-07-04T14:12:44+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "php-extras/php-extras-sandbox-plugin": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

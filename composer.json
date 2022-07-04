@@ -1,0 +1,26 @@
+{
+  "name": "php-extras/php-extras-sandbox",
+  "description": "A sandbox PHP/Composer project used for testing php-extras",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "kstanley",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "php-extras/php-extras-sandbox-plugin": "dev-main"
+  },
+  "autoload-dev": {
+    "PhpExtras\\Sandbox\\Plugin": "../php-extras-sandbox-plugin"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/9ae8sdf76/php-extras-sandbox-plugin"
+    }
+  ]
+}
